@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    width: 300px;
+    padding: 12px;
+}
+
+.sidebar___navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.sidebar___navigation .logo {
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    background-color: #121212;
+}
+
+.sidebar___navigation .logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar nav ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sidebar nav ul li .fa {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.library {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 16px;
+    border-radius: 8px;
+
+    color: #b3b3b3;
+    background-color: #121212;
+}
+
+.library .logo__library {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.library .logo__library p {
+    font-weight: 600;
+}
+
+.library .logo__library .fa {
+    font-size: 20px;
+    font-weight: 300;
+    padding-right: 8px;
+}
