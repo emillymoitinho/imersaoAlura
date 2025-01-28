@@ -8,7 +8,7 @@ Repositório dedicado ao projeto feito durante a 2º edição da Imersão Front-
 - Fazer a sidebar navigation;
 - Aprender dicas de atalho no VSCode para escrever HTML;
 - Introduzir as propriedades de estilo do CSS no projeto, com truques no Devtools;
-- Desafio: construir a aba “Sua biblioteca” ✅
+- Desafio: construir a aba “Sua biblioteca” 
 
-  ### Desafio aula 01
-  ![Desafio 01](/assets/prints-desafios/desafio-print,jpeg)
+  ### Desafio aula 01 ✅
+  ![Desafio 01](/assets/prints-desafios/desafio-print.jpeg)
