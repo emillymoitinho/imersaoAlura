@@ -29,7 +29,7 @@ Fazer a tag footer (brinque com o botão, faça o gradiente, etc).
 
 ## 3º aula Layout Flexbox, Pseudo-classes e Responsividade em CSS
 
-📝 Nesta aula veremos estes conteúdos: 
+📝 Nesta aula aprendi estes conteúdos: 
 - Estruturar melhor o projeto;
 - Refatorar o código;
 - Fazer o layout flexbox;
