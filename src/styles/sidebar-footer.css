@@ -186,13 +186,14 @@ body {
 
 footer {
     width: 100vw;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background: linear-gradient(to right, #ae2896, #509bf5);
 
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 2rem;
+    padding: 15px 40px;
 }
 
 footer .content_rigth {

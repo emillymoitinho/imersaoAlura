@@ -2,6 +2,11 @@
 
 /* header */
 
+html,body {
+    overflow-x: hidden;
+    position: relative;
+}
+
 .main-container {
     max-width: 80vw;
     height: 100vh;
@@ -96,4 +101,33 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+}
+
+.playlist-container {
+    height: 68vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.playlist-container .title__playlist {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+}
+
+.title__playlist h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.title__playlist h2 {
+    font-size: 1.5rem;
+    color: #fff;
 }
