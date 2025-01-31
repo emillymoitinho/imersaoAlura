@@ -37,6 +37,6 @@ Fazer a tag footer (brinque com o botão, faça o gradiente, etc).
 - Criar o menu superior;
 
 ### Desafio aula 03 ✅
-Fazer a tag footer (brinque com o botão, faça o gradiente, etc).
+Fazer os cards de “Boa tarde” e “Navegar por todas as seções”.
 
 ![Desafio 03](src/assets/prints-desafios/desafio-aula03.jpeg)
