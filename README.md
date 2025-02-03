@@ -16,7 +16,7 @@ Construir a aba “Sua biblioteca”
 
 ## 2º aula Estilo Avançado e Posicionamento: Transformando Layouts
 
-📝  Nesta aula aprendi estes conteúdos: 
+📝  Nesta aula aprendi: 
 - Criar todo menu lateral da página;
 - Aprender os fundamentos do CSS Flexbox;
 - Saber mais sobre posicionamentos no CSS;
@@ -29,7 +29,7 @@ Fazer a tag footer (brinque com o botão, faça o gradiente, etc).
 
 ## 3º aula Layout Flexbox, Pseudo-classes e Responsividade em CSS
 
-📝 Nesta aula aprendi estes conteúdos: 
+📝 Nesta aula aprendi: 
 - Estruturar melhor o projeto;
 - Refatorar o código;
 - Fazer o layout flexbox;
@@ -40,3 +40,20 @@ Fazer a tag footer (brinque com o botão, faça o gradiente, etc).
 Fazer os cards de “Boa tarde” e “Navegar por todas as seções”.
 
 ![Desafio 03](src/assets/prints-desafios/desafio-aula03.jpeg)
+
+## 4º aula CSS Grid, Media Queries e Manipulação do DOM com JavaScript
+
+📝 Nesta aula aprendi: 
+- Criar os cards da página inicial;
+- Aprender a usar o CSS Grid Layout;
+- Utilizar media queries para responsividade;
+- Instalar do Node.js;
+- Introduzir o JavaScript no projeto;
+- Utilizar o conceito DOM;
+- Conhecer o método Promises do JavaScript;
+- Desafios: fazer mais cards se baseando na página do Spotify.
+
+### Desafio aula 04 ✅
+Fazer mais cards se baseando na página do Spotify.
+
+Adicionei os cards "Gabriela Rocha", "Maria Marçal" e "É Tudo Sobre Você / Ser Mudado". Também adicionei adicionei o Gospel e o pop na section "offer__list-item"
