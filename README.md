@@ -53,7 +53,9 @@ Fazer os cards de “Boa tarde” e “Navegar por todas as seções”.
 - Conhecer o método Promises do JavaScript;
 - Desafios: fazer mais cards se baseando na página do Spotify.
 
-### Desafio aula 04 ✅
-Fazer mais cards se baseando na página do Spotify.
+## 5º aula Frameworks e Eficiência: Introdução ao React e Angular
 
-Adicionei os cards "Gabriela Rocha", "Maria Marçal" e "É Tudo Sobre Você / Ser Mudado". Também adicionei adicionei o Gospel e o pop na section "offer__list-item"
+📝 Nesta aula aprendi: 
+- Usar framework React;
+- Criar o componente <Header> utilizando o React.
+
