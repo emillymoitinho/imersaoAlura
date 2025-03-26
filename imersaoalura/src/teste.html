@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gráfico de Linha</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    
+  <canvas id="salesChart" width="800" height="400"></canvas>
+  <script>
+    function displaySales(data) {
+      const dates = data.dates;
+      const prices = data.prices;
+
+      const ctx = document.getElementById('salesChart').getContext('2d');
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: dates,
+          datasets: [
+            {
+              label: 'Preço do Vendedor',
+              data: prices,
+              borderColor: '#8e44ad',
+              backgroundColor: 'transparent',
+              borderWidth: 2,
+              pointBackgroundColor: '',
+              fill: true,
+              tension: 0.4, // Para suavizar as linhas
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            tooltip: {
+              callbacks: {
+                label: function(context) {
+                  return `R$${context.raw.toFixed(2)}`;
+                }
+              }
+            },
+            legend: {
+              display: true,
+              position: 'top'
+            }
+          },
+          scales: {
+            x: {
+              title: {
+                display: true,
+                text: 'Data'
+              }
+            },
+            y: {
+              title: {
+                display: true,
+                text: 'Preço'
+              },
+              beginAtZero: true
+            }
+          }
+        }
+      });
+    }
+
+    // Dados fictícios
+    const data = {
+      dates: ['1 Jul', '5 Jul', '10 Jul', '15 Jul', '20 Jul', '25 Jul', '30 Jul'],
+      prices: [300, 500, 700, 600, 800, 1258, 400]
+    };
+
+    displaySales(data);
+  </script>
+</body>
+</html>
